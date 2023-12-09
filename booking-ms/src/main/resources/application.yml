@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: BOOKING-MS
+  profiles:
+    include:
+      - db
+      - eureka
+      - kafka
+      - security
+      - common

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: FLIGHT-MS
+  profiles:
+    include:
+      - db
+      - eureka
+      - security
+      - common
+

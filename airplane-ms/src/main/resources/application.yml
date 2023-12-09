@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: airplane-ms
+  profiles:
+    include:
+      - db
+      - eureka
+      - security
+

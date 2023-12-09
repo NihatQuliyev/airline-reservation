@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: EUREKA-SERVICE
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
+  instance:
+    default-address-resolution-order:
